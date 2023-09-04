@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cat Generator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+    <div class="loading-screen">
+      <div class="loading-animation"></div>
+    </div>
+    <div class="error-display">
+      <div class="error-info">An error occurred</div>
+      <button class="retry">Retry</button>
+    </div>
+    <div class="cat-image-container">
+      <img id="cat-image" src="" alt="a cute cat">
+      <a id="download-image" href="" download="">
+        <div class="download-back">
+          <img src="download-icon.svg">
+        </div>
+      </a>
+    </div>
+    <div class="fact-title">Fun meow fact:</div>
+    <div class="fact">fact</div>
+    <button class="generate-button">Generate Moar!</button>
+  </div>
+  <div class="credits">
+    <span>Thanks to</span>
+    <a target="_blank" href="https://cataas.com/#/">cataas</a>
+    <span>&</span>
+    <a target="_blank" href="https://github.com/wh-iterabb-it/meowfacts">meowfacts</a>
+    <span>for their purrfect APIs</span>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
